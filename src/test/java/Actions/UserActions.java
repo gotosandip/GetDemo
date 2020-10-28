@@ -8,6 +8,7 @@ public class UserActions {
 		
 		System.out.println("Send Enter keys");
 		System.out.println("Send tab keys");
+		System.out.println("Send Ctlr keys");
 		
 	
 	}
