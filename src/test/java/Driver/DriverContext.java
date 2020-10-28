@@ -32,7 +32,8 @@ public class DriverContext {
 
 	public void openApplication(String url) {		
 		driver.manage().deleteAllCookies();
-		driver.get(url);	
+		driver.get(url);
+		driver.getCurrentUrl();
 		//System.out.println(driver.getTitle() + " is the title of the page " + driver.getCurrentUrl());	
 		//System.out.println(" Driver Page Source => " + driver.getPageSource() );
 	}
